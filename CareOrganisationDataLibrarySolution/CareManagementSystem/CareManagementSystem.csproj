@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CareOrganisationDataLibrary\CareOrganisationDataLibrary.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\CareQualification\" />
+    <Folder Include="Models\CareStaff\" />
+    <Folder Include="Models\CareQualification\" />
+  </ItemGroup>
+
+</Project>
